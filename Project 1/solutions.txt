@@ -1,0 +1,47 @@
+Please enter a whole number: 7
+Number of sides: 5
+A square with a side length of 7
+	has a perimeter of 28
+	has an area of 49
+A circle with a diameter of 7
+	has a radius of 3.5
+	has a circumference of 21.991
+	has an area of 38.484
+An equilateral triangle with side length of 7
+	has a perimeter of 21
+	has an area of 21.218
+A regular polygon with 5 sides and a side length of 7
+	has a perimter of 35
+	has an area of 84.303
+
+Please enter a whole number: 3
+Number of sides: 3
+A square with a side length of 3
+	has a perimeter of 12
+	has an area of 9
+A circle with a diameter of 3
+	has a radius of 1.5
+	has a circumference of 9.425
+	has an area of 7.069
+An equilateral triangle with side length of 3
+	has a perimeter of 9
+	has an area of 3.897
+A regular polygon with 3 sides and a side length of 3
+	has a perimter of 9
+	has an area of 3.897
+
+Please enter a whole number: 10
+Number of sides: 4
+A square with a side length of 10
+	has a perimeter of 40
+	has an area of 100
+A circle with a diameter of 10
+	has a radius of 5.0
+	has a circumference of 31.416
+	has an area of 78.54
+An equilateral triangle with side length of 10
+	has a perimeter of 30
+	has an area of 43.301
+A regular polygon with 4 sides and a side length of 10
+	has a perimter of 40
+	has an area of 100.0

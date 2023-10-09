@@ -1,0 +1,8 @@
+Name: Brandon
+Date: 09/26/2023
+
+Original:
+The quick brown fox jumps over the lazy dog.
+
+New:
+The yellow red dog jumps over the fussy cat.

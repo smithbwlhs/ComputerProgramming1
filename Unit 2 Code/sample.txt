@@ -1,0 +1,5 @@
+Original:
+The quick brown fox jumps over the lazy dog.
+
+New:
+The _adjective_ _color_ _animal_ jumps over the _adjective_ _animal_.
