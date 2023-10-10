@@ -1,0 +1,45 @@
+My Solution 1
+	42 is a positive number,
+	it is greater than 10,
+	it is even,
+	and it is not the atomic number of a noble gas.
+	E is an upper case letter,
+	it is a vowel,
+	its ASCII value is 69
+	and it's the 5th letter of the alphabet
+
+Student Solution 1
+
+My Solution 2
+	18 is a positive number,
+	it is greater than 10,
+	it is even,
+	and it is the atomic number of a noble gas.
+	B is an upper case letter,
+	it is not a vowel,
+	its ASCII value is 66
+	and it's the 2nd letter of the alphabet
+
+Student Solution 2
+
+My Solution 3
+	25 is a positive number,
+	it is greater than 10,
+	it is odd,
+	and it is not the atomic number of a noble gas.
+	5 is a numeric digit,
+	it is not a vowel,
+	its ASCII value is 53
+
+Student Solution 3
+
+My Solution 4
+	57 is a positive number,
+	it is greater than 10,
+	it is odd,
+	and it is not the atomic number of a noble gas.
+	it is not a vowel,
+	its ASCII value is 38
+
+Student Solution 4
+
