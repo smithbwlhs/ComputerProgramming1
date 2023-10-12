@@ -3,7 +3,6 @@ import sys
 def main():
     test_nums = [42,18,25,57]
     test_chars = ["E","B","5","&"]
-    test_chars = ["E","B","5","&"]
     for i in range(len(test_nums)):
         print("My Solution",i+1)
         data_fun.my_solution(test_nums[i],test_chars[i])
