@@ -18,10 +18,10 @@ If it’s a letter, prints out where it is in the alphabet (A=1st, B=2nd, C=3rd,
 and print the proper suffix (st, nd, rd, th, etc.)
 """
 
-def student_solution(favorite_integer):
+def student_solution(favorite_integer,favorite_character):
     '''enter student solution'''
 
-def my_solution(favorite_integer):
+def my_solution(favorite_integer, favorite_character):
     #favorite_integer = int(input("What is your favorite integer? "))
 
     if favorite_integer >= 0:
@@ -47,7 +47,7 @@ def my_solution(favorite_integer):
         case _:
             print("\tand it is not the atomic number of a noble gas.")
 
-    favorite_character = input("What is your favorite character? ")
+    #favorite_character = input("What is your favorite character? ")
 
     if favorite_character.isdigit():
         print("\t" + favorite_character + " is a numeric digit,")
@@ -68,13 +68,15 @@ def my_solution(favorite_integer):
     ascii_value = ord(favorite_character)
     print("\tits ASCII value is",ascii_value)
 
-    match favorite_character.lower():
-        case "a":
-            print("\tand it's the 1st letter of the alphabet")
-        case "b":
-            print("\tand it's the 2nd letter of the alphabet")
-        case "c":
-            print("\tand it's the 3rd letter of the alphabet")
-        case _:
-            print("\tand it's the " + str(ascii_value-64) + "th letter of the alphabet")
+    if favorite_character.isalpha():
+        match favorite_character.lower():
+            case "a":
+                print("\tand it's the 1st letter of the alphabet")
+            case "b":
+                print("\tand it's the 2nd letter of the alphabet")
+            case "c":
+                print("\tand it's the 3rd letter of the alphabet")
+            case _:
+                print("\tand it's the " + str(ascii_value-64) + "th letter of the alphabet")
+
 
