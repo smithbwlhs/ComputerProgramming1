@@ -2,8 +2,9 @@ import data_fun_student
 import data_fun_solution
 import sys
 def main():
-    test_nums = [42,18,25,57,152,3,-20]
-    test_chars = ["E","B","5","&","C","a","^"]
+    test_nums = [42,18,25,57,152,3,-20,1500]
+    test_chars = ["E","B","5","&","C","a","^","b"]
+    #test_chars = ["E", "B", "W", "F", "C", "a", "Z"]
     for i in range(len(test_nums)):
         print("My Solution",i+1)
         data_fun_solution.my_solution(test_nums[i],test_chars[i])

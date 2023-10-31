@@ -9,15 +9,14 @@ My Solution 1
 	and it's the 5th letter of the alphabet
 
 Student Solution 1
-	This integer is positive
-	This integer is greater than 10
-	This number is even.
-	This is not one of the Noble Gasses.
-E
-	Your character is an uppercase letter
-	It's an uppercase vowel
-	The ASCII value of favorite_character is 69
-	And it is the 5th letter of the alphabet.
+42 is a positive number,
+it is greater than 10,
+it is even,
+and it is not the atomic number of a noble gas.
+E is an uppercase letter
+E is not a vowel
+it's ASCII value is 69
+and it is the 5th letter of the alphabet.
 
 My Solution 2
 	18 is a positive number,
@@ -30,15 +29,14 @@ My Solution 2
 	and it's the 2nd letter of the alphabet
 
 Student Solution 2
-	This integer is positive
-	This integer is greater than 10
-	This number is even.
-	This is the Noble Gas Argon!
-B
-	Your character is an uppercase letter
-	It's a consonant.
-	The ASCII value of favorite_character is 66
-	And it is the 2nd letter of the alphabet.
+18 is a positive number,
+it is greater than 10,
+it is even,
+and it's the atomic number of the noble gas Argon.
+B is an uppercase letter
+B is not a vowel
+it's ASCII value is 66
+and it is the 2nd letter of the alphabet.
 
 My Solution 3
 	25 is a positive number,
@@ -49,13 +47,12 @@ My Solution 3
 	its ASCII value is 53
 
 Student Solution 3
-	This integer is positive
-	This integer is greater than 10
-	This number is odd.
-	This is not one of the Noble Gasses.
-5
-	Your character is a numeric digit.
-	The ASCII value of favorite_character is 53
+25 is a positive number,
+it is greater than 10,
+it is odd,
+and it is not the atomic number of a noble gas.
+5 is a numeric digit
+it's ASCII value is 53
 
 My Solution 4
 	57 is a positive number,
@@ -66,13 +63,11 @@ My Solution 4
 	its ASCII value is 38
 
 Student Solution 4
-	This integer is positive
-	This integer is greater than 10
-	This number is odd.
-	This is not one of the Noble Gasses.
-&
-	Invalid input.
-	The ASCII value of favorite_character is 38
+57 is a positive number,
+it is greater than 10,
+it is odd,
+and it is not the atomic number of a noble gas.
+it's ASCII value is 38
 
 My Solution 5
 	152 is a positive number,
@@ -85,15 +80,14 @@ My Solution 5
 	and it's the 3rd letter of the alphabet
 
 Student Solution 5
-	This integer is positive
-	This integer is greater than 100
-	This number is even.
-	This is not one of the Noble Gasses.
-C
-	Your character is an uppercase letter
-	It's a consonant.
-	The ASCII value of favorite_character is 67
-	And it is the 3rd letter of the alphabet.
+152 is a positive number,
+it is greater than 100,
+it is even,
+and it is not the atomic number of a noble gas.
+C is an uppercase letter
+C is not a vowel
+it's ASCII value is 67
+and it is the 3rd letter of the alphabet.
 
 My Solution 6
 	3 is a positive number,
@@ -105,15 +99,12 @@ My Solution 6
 	and it's the 1st letter of the alphabet
 
 Student Solution 6
-	This integer is positive
-	This number is smaller than 10
-	This number is odd.
-	This is not one of the Noble Gasses.
-a
-	Your character is a lowercase letter
-	It's a lowercase vowel
-	The ASCII value of favorite_character is 97
-	And it is the 33th letter of the alphabet.
+3 is a positive number,
+it is odd,
+and it is not the atomic number of a noble gas.
+a is a lowercase letter
+it is not a vowel,
+it's ASCII value is 97
 
 My Solution 7
 	-20 is a negative number,
@@ -123,11 +114,27 @@ My Solution 7
 	its ASCII value is 94
 
 Student Solution 7
-	This integer is negative.
-	This number is smaller than 10
-	This number is even.
-	This is not one of the Noble Gasses.
-^
-	Invalid input.
-	The ASCII value of favorite_character is 94
+-20 is a negative number,
+it is even,
+and it is not the atomic number of a noble gas.
+it's ASCII value is 94
+
+My Solution 8
+	1500 is a positive number,
+	it is greater than 1000,
+	it is even,
+	and it is not the atomic number of a noble gas.
+	b is a lower case letter,
+	it is not a vowel,
+	its ASCII value is 98
+	and it's the 2nd letter of the alphabet
+
+Student Solution 8
+1500 is a positive number,
+it is greater than 1000,
+it is even,
+and it is not the atomic number of a noble gas.
+b is a lowercase letter
+it is not a vowel,
+it's ASCII value is 98
 
