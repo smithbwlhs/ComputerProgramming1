@@ -2,30 +2,37 @@ import math
 import time
 
 def geometryFunStudent(length, sides):
-    PI = 3.1416
-    import math
 
-    #length = int(input("Enter a whole number: "))
+    #length = int(input("whats your favorite number?: "))
 
-    # Square
-    print("\nSquare side length is: ", length)
-    square_area = length * length
-    print("\tSquare area: ", square_area)
-    square_perimeter = length * 4
-    print("\tSquare perimeter: ", square_perimeter)
 
-    # Circle
-    print("Circle diameter: ", length)
-    circle_radius = length / 2
-    print("\tCircle radius: ", circle_radius)
-    circle_circumference = circle_radius * PI * 2
-    print("\tCircle circumference: ", round(circle_circumference, 3))
-    circle_area = pow(circle_radius, 2) * PI
-    print("\tCircle area: ", round(circle_area, 3))
+    #Calculate 
+        
+        #Square
+    square_area = length * length 
+    square_perimeter = length + length + length + length
 
-    # Equilateral Triangle
-    print("Equilateral Triangle Side length is: ", length)
-    equ_tri_area = math.sqrt(3) / 4 * pow(length, 2)
-    print("\tTriangle area: ", round(equ_tri_area, 3))
-    equ_tri_perimeter = length * 3
-    print("\tTriangle perimeter: ", equ_tri_perimeter)
+        #Circle
+    circle_circumference = round((length * 3.14),3)
+    circle_area = 3.14 * ((length/2)**2)
+
+        #Triangle
+    triangle_area = round((math.sqrt(3)/4)*(length**2),1)
+    triangle_perimeter = length * 3
+
+    #Show n Tell
+
+        #Square
+    print("a square with a side length of", str(length)) 
+    print("\thas an area of", str(square_area))
+    print("\tand a perimeter of", str(square_perimeter))
+
+        #Circle
+    print("a circle with a radius of", str(length))
+    print("\thas a circumference of", str(circle_circumference))
+    print("\thas an area of", str(circle_area))
+
+        #Triangle
+    print("a triangle with a side length of",str(length))
+    print("\thas a area of",str(triangle_area))
+    print("\tand a perimeter of", str(triangle_perimeter))

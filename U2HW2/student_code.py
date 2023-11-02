@@ -1,21 +1,9 @@
-def triangleStudent(stick_1  , stick_2, stick_3):
+def triangleStudent(side1, side2, side3):
     """Student code here"""
-
-
-    if(stick_1 > stick_2 and stick_1 > stick_3):
-        if(stick_1 < stick_2 + stick_3):
-            print("Yes")
-        else:
-            print("No")
-    elif(stick_2 > stick_1 and stick_2 > stick_3):
-        if(stick_2 < stick_1 + stick_3):
-            print("Yes")
-        else:
-            print("No")
-    elif(stick_3 < stick_1 + stick_2):
-        print("Yes")
+    if side1 >= side2+side3 or side2 >= side1+side3 or side3 >= side2+side1:
+        print("Thats not possible") 
     else:
-        print("No")
+        print("Yay! you made a triangle!")
 
 #Exercise 2
 def triangleSolution(a, b, c):
