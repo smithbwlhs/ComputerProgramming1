@@ -257,12 +257,13 @@ def cave_intro():
     global points
 
     points += 5
+    print(f"You have gained {points} points.")
+    print(status(name,points))
     print(f"""
     As you walk down the forest path, you see a cave to your right.""")
-    time.sleep(1)
+    time.sleep(1.5)
     cave_art()
     time.sleep(1)
-    clear_screen()
     clear_screen()
     print(f"""What do you do?
     1) Enter the cave
@@ -270,7 +271,7 @@ def cave_intro():
     choice = int(input("> "))
     if choice == 1:
         points += 15
-        print(f"{name}, you have gained 15 points for your bravery")
+        print(f"You have gained 15 points for your bravery")
         print(status(name, points))
         time.sleep(1)
         clear_screen()
@@ -293,7 +294,7 @@ def witch_encounter():
     You enter the cave and notice a strange smell in the air. You continue
     forward and after a while see a faint glow in the distance. Eventually,
     you come into a large opening and see a witch at a cauldron""")
-    time.sleep(1)
+    time.sleep(2)
     clear_screen()
     witch_art()
     time.sleep(1)
@@ -303,7 +304,7 @@ def witch_encounter():
     trespassed into my cave, but I see that you are carrying a pouch with
     1000 gold in it. I will give you 2 options so you can escape with your
     life...""")
-    time.sleep(0.5)
+    time.sleep(2)
     clear_screen()
     print(f"""
     1) Give me all of your gold and your shoes
@@ -399,11 +400,9 @@ def potion_scene():
     potion_bottle_art()
     time.sleep(1)
     clear_screen()
-    clear_screen()
     print(f"""
     You feel a strange sensation throughout your body and...""")
     time.sleep(1)
-    clear_screen()
     clear_screen()
     if 1 <= rand_num <= 7:
         points = 0
@@ -417,6 +416,7 @@ def potion_scene():
     else:
         item = "new powers"
         points += 1000
+
         print(f"""
     everything goes black, you crash to the floor, then wake
     up a few minutes later. When you wake up you feel different;
@@ -424,7 +424,7 @@ def potion_scene():
     with everything around you. You realize you now have the same
     powers as the witch. You cast a spell to freeze her in place
     temporarily and quickly run from the cave.""")
-        time.sleep(1)
+        time.sleep(3)
         print(status(name, points))
         time.sleep(1)
         clear_screen()
@@ -441,6 +441,7 @@ def good_cave_ending(item):
         With {points} points, you, {name} the adventurous traveler,
         exit the cave with your {item} and continue down the road
         in search of more adventures""")
+    time.sleep(2)
 
 
 def good_ending_art():
