@@ -77,3 +77,13 @@ print(my_string[::2])
 
 print(my_string[::-1])
 
+#rearranging strings with slicing
+not_yoda_sentence = "I will take you to him"
+#yoda_sentence should be Take you to him, I will
+
+first_part = not_yoda_sentence[7:].capitalize()
+second_part = not_yoda_sentence[:6]
+print(f"{first_part}, {second_part}")
+#### I   w i l l   t a k e     y  o  u     t  o      h  i  m ####
+#    0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  19 20 21
+
